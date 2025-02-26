@@ -66,7 +66,7 @@ function Card() {
         transition={{duration: 1.2}}> 
         <Link to ='/cake'>
         <p className="-mt-[4rem] px-7 py-3 bg-customBlue text-white font-medium text-base rounded-full hover:bg-blue-600">
-            Next Page
+            Next Surprise
         </p>
         </Link>
             

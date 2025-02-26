@@ -18,16 +18,18 @@ function Picture() {
 
   return (
     <SectionWrapper>
-      <Link to="/card">
-        <p className="absolute text-4xl font-bold text-customBlue inset-0 flex justify-center items-center text-center transform rotate-6 cursor-pointer">
-          You are Getting Old! :P
-        </p>
-      </Link>
-
       {!allImagesLoaded && (
         <div className="absolute inset-0 flex justify-center items-center">
           <p className="text-xl font-medium text-gray-500">Loading images...</p>
         </div>
+      )}
+
+      {allImagesLoaded && (
+        <Link to="/card">
+          <p className="absolute text-4xl font-bold text-customBlue inset-0 flex justify-center items-center text-center transform rotate-6 cursor-pointer">
+            You are Getting Old! :P
+          </p>
+        </Link>
       )}
 
       {images.map((image, index) => (

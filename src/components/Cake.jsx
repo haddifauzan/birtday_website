@@ -28,9 +28,9 @@ function Cake() {
         const bufferLength = analyser.frequencyBinCount;
         dataArray = new Uint8Array(bufferLength);
         source.connect(analyser);
-
         detectBlow();
       } catch (error) {
+        alert("Please allow microphone access to blow the candles!");
         console.error("Microphone access denied:", error);
       }
     }
