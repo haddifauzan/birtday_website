@@ -16,12 +16,12 @@ function Present() {
           <div className="gift-bottom"></div>
           <div id="raffle-red" className="entry raffle raffle-1">
             <div className="no-scale">
-              <span className="ticket-text">Free<br/>Movies</span>
+              <span className="ticket-text">Free<br/>Watch</span>
             </div>
           </div>
           <div id="raffle-red" className="entry raffle raffle-2">
             <div className="no-scale">
-              <span className="ticket-text">Free<br/>Playing</span>
+              <span className="ticket-text">Free<br/>Play</span>
             </div>
           </div>
           <div id="raffle-red" className="entry raffle raffle-3">

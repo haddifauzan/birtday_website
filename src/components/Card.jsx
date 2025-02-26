@@ -67,7 +67,7 @@ function Card() {
         <Link to ='/cake'>
         <p className="-mt-[4rem] px-7 py-3 bg-customBlue text-white font-medium text-base rounded-full hover:bg-blue-600">
             Next Page
-          </p>
+        </p>
         </Link>
             
         </motion.div>
